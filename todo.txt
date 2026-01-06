@@ -1,0 +1,6 @@
+[] init uv project stucture
+[] add just file
+[] add ruff
+[] add test directory
+[] add github actions
+[] add vscode settings
