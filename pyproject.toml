@@ -1,5 +1,5 @@
 [project]
-name = "{{cookiecutter.project_name}"
+name = "project-name"
 version = "0.0.0"
 description = "Add your description here"
 readme = "README.md"
@@ -14,3 +14,30 @@ lint = [
   "ruff",
   "mypy"
 ]
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".eggs",
+    ".git",
+    ".mypy_cache",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "build",
+    "dist",
+    "venv",
+]
+
+line-length = 88
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "C901", "ANN"]

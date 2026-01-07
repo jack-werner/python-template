@@ -1,9 +1,13 @@
 [x] init uv project stucture
-[] add dependency groups
+[x] add dependency groups
 [] add ruff
     [] add my rules
 [] add test directory
 [] add just file
+    [] lint
+    [] test
+    [] build
+    [] publish
 [] add github actions
 [] add vscode settings
 [] cookie cutterize
