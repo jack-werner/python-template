@@ -1,5 +1,9 @@
-def main():
-    print("Hello from python-template!")
+"""Docstring for module."""
+
+
+def main() -> None:
+    """Docstring for main."""
+    print("Hello from python-template!")  # noqa
 
 
 if __name__ == "__main__":

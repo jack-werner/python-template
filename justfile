@@ -1,9 +1,15 @@
-install:
-    uv sync
+install: 
+    uv sync --all-groups
 
 test:
     uv run pytest
 
-lint:
+lint: 
     uv run mypy .
     uv run ruff check .
+
+build: 
+    uv build
+
+clean:
+    rm -R dist

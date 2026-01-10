@@ -1,1 +1,1 @@
-# define your fixtures here
+"""File for defining pytest fixtures and setting other configuration options."""

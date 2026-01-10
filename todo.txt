@@ -4,15 +4,14 @@
     [x] add my rules
 [x] add test directory
 [x] add just file
-    [] lint
-    [] test
-    [] build
-    [] publish
+    [x] lint
+    [x] test
+    [x] build
+    [x] clean
 [] add github actions
     [] lint
     [] test
         [] matrix for 3.10-15
-    [] publish
 [] add vscode settings
 [] README
 [] cookie cutterize
