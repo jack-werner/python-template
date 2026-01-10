@@ -3,17 +3,12 @@ name = "project-name"
 version = "0.0.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = []
 
 [dependency-groups]
-dev = [
-  "pytest"
-]
-lint = [
-  "ruff",
-  "mypy"
-]
+dev = ["pytest"]
+lint = ["ruff", "mypy"]
 
 [tool.ruff]
 # Exclude a variety of commonly ignored directories.
@@ -40,4 +35,39 @@ line-length = 88
 indent-width = 4
 
 [tool.ruff.lint]
-select = ["E", "F", "W", "C901", "ANN"]
+select = [
+    "E",
+    "F",
+    "FBT",
+    "W",
+    "C901",
+    "ANN",
+    "BLE",
+    "B",
+    "A",
+    "COM",
+    "C4",
+    "DTZ",
+    "FA",
+    "ISC",
+    "ICN",
+    "LOG",
+    "G",
+    "T20",
+    "PT",
+    "RET",
+    "SIM",
+    "TID",
+    "TC",
+    "ARG",
+    "PTH",
+    "I",
+    "PD",
+    "N",
+    "DOC",
+    "D",
+    "PL",
+]
+
+[tool.ruff.lint.flake8-import-conventions.aliases]
+"pyspark.sql.functions" = "sf"

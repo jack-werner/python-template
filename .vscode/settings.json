@@ -1,12 +1,12 @@
 {
+    "editor.formatOnSave": true,
     "[python]": {
         "gitlens.codeLens.symbolScopes": [
             "!Module"
         ],
-        "editor.formatOnSave": true,
         "editor.wordBasedSuggestions": "off",
         "editor.defaultFormatter": "charliermarsh.ruff",
-        
+        "editor.rulers": [88]
     },
     "mypy-type-checker.severity": {
         "error": "Error",
