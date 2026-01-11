@@ -17,4 +17,6 @@ jobs:
       - uses: extractions/setup-just@v3
       - name: Pytest
         run: |
+          pip install uv
+          just install
           just test
