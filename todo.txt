@@ -8,10 +8,10 @@
     [x] test
     [x] build
     [x] clean
-[] add github actions
+[x] add github actions
     [x] lint
     [x] test
         [x] matrix for 3.10-15
-[] add vscode settings
-[] README
+[x] add vscode settings
+[x] README
 [] cookie cutterize
