@@ -3,7 +3,7 @@
 
 def main() -> None:
     """Docstring for main."""
-    print("Hello from python-template!")  # noqa
+    print("Hello from {{cookiecutter.project_name}}!")  # noqa
 
 
 if __name__ == "__main__":
