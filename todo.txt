@@ -9,9 +9,9 @@
     [x] build
     [x] clean
 [] add github actions
-    [] lint
-    [] test
-        [] matrix for 3.10-15
+    [x] lint
+    [x] test
+        [x] matrix for 3.10-15
 [] add vscode settings
 [] README
 [] cookie cutterize

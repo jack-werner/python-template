@@ -1,5 +1,6 @@
 {
     "editor.formatOnSave": true,
+    "yaml.format.enable": true,
     "[python]": {
         "gitlens.codeLens.symbolScopes": [
             "!Module"
@@ -11,5 +12,10 @@
     "mypy-type-checker.severity": {
         "error": "Error",
         "note": "Information"
+    },
+    "[yaml]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
     }
 }
