@@ -1,5 +1,6 @@
 # Python Project Template
 
+
 This my python template set up with my preferred project tooling and structure.
 
 This repo comes set up with a few tools to make development easier and more consistent when working with a team.
