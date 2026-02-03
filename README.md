@@ -3,6 +3,17 @@
 
 This my python template set up with my preferred project tooling and structure.
 
+To build a project with my tooling, download `cookiecutter` with 
+```
+pip install cookiecutter
+```
+
+And then run
+```
+cookiecutter https://github.com/jack-werner/python-template
+```
+To make your own repo.
+
 This repo comes set up with a few tools to make development easier and more consistent when working with a team.
 
 - `uv` for general python project and package management.
